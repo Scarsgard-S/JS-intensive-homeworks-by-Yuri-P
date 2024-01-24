@@ -5,3 +5,11 @@ function hello_js () {
 }
 
 hello_js();
+
+let b = true;
+
+function booleanToString() {
+    return b ? "true" : "false";
+}
+
+console.log(booleanToString(b));
